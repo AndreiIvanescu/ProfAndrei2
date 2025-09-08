@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://profandrei.replit.app/sitemap.xml
+
+# Allow search engines to index the main content
+Allow: /src/
+Allow: /assets/
+
+# Disallow unnecessary files
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.git/
+Disallow: /server/
